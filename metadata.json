@@ -1,0 +1,8 @@
+{
+  "name": "Cigar AI - Sommelier & Logger",
+  "description": "An intelligent cigar companion featuring real-time voice conversation with a Cigar Sommelier (Gemini Live), AI-powered cigar identification, and a personal smoking log.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
