@@ -200,10 +200,10 @@ const LiveAssistant: React.FC = () => {
       </div>
 
       {/* Main Interaction Area */}
-      <div className="relative z-10 flex items-center justify-center w-72 h-72">
+      <div className="relative z-10 flex items-center justify-center w-72 h-72 flex-shrink-0">
         {status === 'connecting' && (
           <div className="absolute inset-0 flex items-center justify-center">
-             <div className="w-full h-full border-4 border-[#b45309]/30 border-t-[#d4af37] rounded-full animate-spin"></div>
+             <div className="w-48 h-48 border-4 border-[#b45309]/30 border-t-[#d4af37] rounded-full animate-spin"></div>
           </div>
         )}
 
